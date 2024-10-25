@@ -1,0 +1,64 @@
+body {
+    background-color: #eb4d4b;
+    background-image: url("img/redbg.png");
+}
+
+.maincontainer {
+    display: flex;
+    margin: 5%;
+    height: 100%;
+}
+
+.subcontainer {
+    width: 30%;
+    border: 5px solid black;
+}
+
+.subsubcontainer {
+    margin-left: 2%;
+    height: 600px;
+    width: 60%;
+    background-size: 100%;
+}
+
+.subsubcontainer h1 {
+    text-align: center;
+    padding: 20px;
+    background-image: url("img/stone.png");
+    background-size: 50%;
+    margin: 1%;
+    text-shadow: #FC0 2px 1px 10px;
+    color: #130f40;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+    border: 3px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subsubcontainer p {
+    border: 3px solid black;
+    padding: 20px;
+    background-image: url("img/planks.png");
+    background-size: 100%;
+    margin: 2%;
+    text-shadow: black 1px 2px 2px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.gradient-img {
+    height: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+    display: flex;
+  }
+  .gradient-img img {
+    opacity: 0.6;
+    width: 100%;
+    transition: opacity 500ms 0ms ease-in-out;
+  }
+  .gradient-img img:hover { opacity: 1 }
