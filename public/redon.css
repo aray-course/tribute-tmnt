@@ -9,9 +9,40 @@ body {
     height: 100%;
 }
 
+.gejimages {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.gejimages img {
+    margin-left: 10px;
+    border: 3px solid black;
+    background-image: url("img/planks.png");
+    padding: 20px;
+
+}
+
+.gejimages h1 {
+    text-align: center;
+    padding: 20px;
+    background-image: url("img/stone.png");
+    background-size: 50%;
+    margin: 1%;
+    text-shadow: #FC0 2px 1px 10px;
+    color: #130f40;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+    border: 3px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .subcontainer {
     width: 30%;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 
 .subsubcontainer {
