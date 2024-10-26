@@ -109,3 +109,17 @@ footer {
     background: white;
     color: rgb(194, 123, 135);
   }
+  .videodiv {
+    height: 50vh;
+    width: 80%;
+    background-color: black;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  iframe {
+    height: 100%;
+    width: 80%;
+    
+  }
