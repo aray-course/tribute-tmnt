@@ -1,0 +1,62 @@
+body {
+    background-image: url("./img/orange.webp");
+    
+}
+.container {
+    
+    height: 90%;
+    width: 90%;
+    margin: 20vh auto;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: top;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.left {
+    border: solid white 1px;
+    width: 15%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+}
+.center {
+    border: solid white 1px;
+    width: 55%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.right {
+    border: solid white 1px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    height: auto;
+    width: 100%;
+    
+}
+li {
+    text-align: left;
+}
+ol {
+    
+    width: 90%;
+}
+li {
+    margin-top: 5px;
+}
+table, tbody, tr, td, th {
+    border: 1px solid grey;
+}
+
