@@ -5,6 +5,7 @@ body {
     background-color: #1111119f;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 #navbar ul {
