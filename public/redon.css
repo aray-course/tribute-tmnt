@@ -9,22 +9,24 @@ body {
     height: 100%;
 }
 
-.gejimages {
+.gay-images {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
 }
 
-.gejimages img {
-    margin-left: 10px;
+.gay-images img {
+    width: 20%;
+    height: 20%;
+    margin-left: 2%;
     border: 3px solid black;
     background-image: url("img/planks.png");
     padding: 20px;
 
 }
 
-.gejimages h1 {
+.gay-images h1 {
     text-align: center;
     padding: 20px;
     background-image: url("img/stone.png");
